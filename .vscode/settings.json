@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "C:\\Users\\rameel.rehim\\AppData\\Local\\Continuum\\anaconda3\\envs\\myDjangoEnv\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true
+}

@@ -1,0 +1,23 @@
+<html>
+<head>
+{% load staticfiles %}
+ <link rel="stylesheet" href="{% static "css\bootstrap.css" %}" />
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top">
+    <ul class="nav navbar-nav">
+       <li><a  href="{% url "reg:home" %}">HOME</a></li>
+       <li><a  href="{% url "reg:register" %}">REGISTER</a></li>
+       <li><a  href="{% url "admin:index" %}">ADMIN</a></li>
+       {% comment %} <li><a  href="{% url 'reg:login.html' %}">LOGIN</a></li> {% endcomment %}
+    </ul>
+    </nav>
+    <div class="container">
+       {% block body_block %}
+            <h1> Hello and Welcome!!!</h1>
+        {% endblock %}
+    </div>
+    
+    
+</body>
+</html>
